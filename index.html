@@ -1,6 +1,14 @@
-<button id="createTrombi">TROMBI</button>
-<button id="createExam">EXAM</button>
+<div id="menuContainer">
+    <button id="createTrombi">TROMBI</button>
+    <button id="createExam">EXAM</button>
+</div>
+<div id="trombiContainer" style="width: 100%">
 
+</div>
+<script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+<script src="./jquery-3.2.1.min.js"></script>
 <script>
     require('./renderer.js')
 </script>
+<!-- Insert this line after script imports -->
+<script>if (window.module) module = window.module;</script>

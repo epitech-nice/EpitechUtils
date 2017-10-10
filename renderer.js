@@ -3,7 +3,8 @@
 // All of the Node.js APIs are available in this process.
 
 const fs = require("fs");
-
+const ipc = require('electron').ipcRenderer;
+const remote = require('electron').remote;
 var studentArray = [];
 
 document.addEventListener('drop', function (e) {
@@ -20,6 +21,7 @@ document.addEventListener('drop', function (e) {
             // Change how to handle the file content
             data = data.replace(new RegExp("present\n", 'g'), "");
             data = data.replace(new RegExp("\n", 'g'), "");
+            data = data.replace(new RegExp("@epitech.eu", 'g'), "");
             studentArray = data.split(";");
         });
     }
@@ -31,6 +33,35 @@ document.addEventListener('dragover', function (e) {
 
 var createTrombi = function () {
 
+    $("#trombiContainer").html("");
+    $("#menuContainer").hide();
+    $("#trombiContainer").show();
+    var content = "";
+    for (var i = 0; i < studentArray.length; i++) {
+        content += "<div style='width: 20%;text-align: center;display: inline-block'><div><img src='./pictures/" + studentArray[i] + ".bmp' style='max-width: 100%'></div><div style='max-width: 100%;word-break: break-all;text-align: center'>" + studentArray[i] + "</div></div></div>";
+    }
+
+    $("#trombiContainer").html(content);
+
+    // var docDefinition = {
+    //     content: [
+    //         {text: 'noBorders:', fontSize: 14, bold: true, pageBreak: 'before', margin: [0, 0, 0, 8]},
+    //         {
+    //             table: {body: []},
+    //             layout: 'noBorders'
+    //         }]
+    // };
+    // var actualArray = [];
+
+    // pdfMake.createPdf(docDefinition).download("lemeilleurpdf.pdf");
+    const webContents = remote.getCurrentWebContents();
+
+    webContents.printToPDF({
+        pageSize: 'A4',
+        landscape: false
+    }, (err, data) => {
+        fs.writeFile("test.pdf", data);
+    });
 };
 
 var createExam = function () {
@@ -63,4 +94,8 @@ var createExam = function () {
 
 document.getElementById("createExam").onclick = function () {
     createExam();
+}
+
+document.getElementById("createTrombi").onclick = function () {
+    createTrombi();
 }
