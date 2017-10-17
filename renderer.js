@@ -5,6 +5,7 @@
 const fs = require("fs");
 const ipc = require('electron').ipcRenderer;
 const remote = require('electron').remote;
+const {dialog} = require('electron').remote
 var studentArray = [];
 
 document.addEventListener('drop', function (e) {
@@ -33,63 +34,72 @@ document.addEventListener('dragover', function (e) {
 
 var createTrombi = function () {
 
-    $("#trombiContainer").html("");
-    $("#menuContainer").hide();
-    $("#trombiContainer").show();
-    var content = "";
-    for (var i = 0; i < studentArray.length; i++) {
-        content += "<div style='width: 20%;text-align: center;display: inline-block'><div><img src='./pictures/" + studentArray[i] + ".bmp' style='max-width: 100%'></div><div style='max-width: 100%;word-break: break-all;text-align: center'>" + studentArray[i] + "</div></div></div>";
-    }
 
-    $("#trombiContainer").html(content);
+    dialog.showSaveDialog(function (fileName) {
+        $("#trombiContainer").html("");
+        $("#menuContainer").hide();
+        $("#trombiContainer").show();
+        var content = "";
+        for (var i = 0; i < studentArray.length; i++) {
+            content += "<div style='width: 20%;text-align: center;display: inline-block'><div><img src='./pictures/" + studentArray[i] + ".bmp' style='max-width: 100%'></div><div style='max-width: 100%;word-break: break-all;text-align: center'>" + studentArray[i] + "</div></div></div>";
+        }
 
-    // var docDefinition = {
-    //     content: [
-    //         {text: 'noBorders:', fontSize: 14, bold: true, pageBreak: 'before', margin: [0, 0, 0, 8]},
-    //         {
-    //             table: {body: []},
-    //             layout: 'noBorders'
-    //         }]
-    // };
-    // var actualArray = [];
+        $("#trombiContainer").html(content);
 
-    // pdfMake.createPdf(docDefinition).download("lemeilleurpdf.pdf");
-    const webContents = remote.getCurrentWebContents();
+        // var docDefinition = {
+        //     content: [
+        //         {text: 'noBorders:', fontSize: 14, bold: true, pageBreak: 'before', margin: [0, 0, 0, 8]},
+        //         {
+        //             table: {body: []},
+        //             layout: 'noBorders'
+        //         }]
+        // };
+        // var actualArray = [];
 
-    webContents.printToPDF({
-        pageSize: 'A4',
-        landscape: false
-    }, (err, data) => {
-        fs.writeFile("test.pdf", data);
+        // pdfMake.createPdf(docDefinition).download("lemeilleurpdf.pdf");
+        setTimeout(() => {
+            const webContents = remote.getCurrentWebContents();
+
+            webContents.printToPDF({
+                pageSize: 'A4',
+                landscape: false
+            }, (err, data) => {
+                fs.writeFile(fileName, data);
+            });
+        }, 500);
     });
 };
 
 var createExam = function () {
-    var arr = [];
-    var finalTab = [];
-    while (arr.length < studentArray.length) {
-        var randomnumber = Math.ceil(Math.random() * 100 % studentArray.length);
-        if (arr.indexOf(randomnumber) > -1) continue;
-        arr[arr.length] = randomnumber;
-    }
-    fs.closeSync(fs.openSync(new Date().toDateString() + 'EXAM.txt', 'w'));
-    var wstream = fs.createWriteStream(new Date().toDateString() + 'EXAM.txt');
+    dialog.showSaveDialog(function (fileName) {
 
-    var writeToStream = function (i) {
-        for (; i < studentArray.length; i++) {
-            if (!wstream.write(studentArray[i] + " " + arr[i] + '\n')) {
-                // Wait for it to drain then start writing data from where we left off
-                wstream.once('drain', function () {
-                    writeToStream(i + 1);
-                });
-                return;
-            }
-            finalTab[i] = {student: studentArray[i], number: arr[i]};
+        if (fileName === undefined) return;
+        var arr = [];
+        var finalTab = [];
+        while (arr.length < studentArray.length) {
+            var randomnumber = Math.ceil(Math.random() * 100 % studentArray.length);
+            if (arr.indexOf(randomnumber) > -1) continue;
+            arr[arr.length] = randomnumber;
         }
-        wstream.end();
-    };
+        fs.closeSync(fs.openSync(fileName, 'w'));
+        var wstream = fs.createWriteStream(fileName);
 
-    writeToStream(0);
+        var writeToStream = function (i) {
+            for (; i < studentArray.length; i++) {
+                if (!wstream.write(studentArray[i] + " " + arr[i] + '\n')) {
+                    // Wait for it to drain then start writing data from where we left off
+                    wstream.once('drain', function () {
+                        writeToStream(i + 1);
+                    });
+                    return;
+                }
+                finalTab[i] = {student: studentArray[i], number: arr[i]};
+            }
+            wstream.end();
+        };
+
+        writeToStream(0);
+    });
 };
 
 document.getElementById("createExam").onclick = function () {
