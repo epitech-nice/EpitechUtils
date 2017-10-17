@@ -2,10 +2,144 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a5b9f63-10b6-48e5-86bf-370c700029e6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.js" afterPath="$PROJECT_DIR$/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/renderer.js" afterPath="$PROJECT_DIR$/renderer.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/abdourahime.mohamadi-halidi.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/adrien.caramalli.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/adrien.iacono.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/adrien.pasina.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/alban.vegleur.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/alessandro.belcastre.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/alexandre.couzi.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/alexis.roques.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/amina.gloulou.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/andrea.fernandez.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/andrea.tombarel.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/angela.valente.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/antoine.leroux.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/arnaud.peyvel.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/arthur.kacprzak.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/axel.ambert.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/baptiste.tougouri.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/benjamin.bezard.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/benoit.aristide.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/bilel.bouricha.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/charles.de-chausse.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/charles.roth.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/christophe.carre.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/clement.adami-buades.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/clement.ruffino.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/clement.tinarelli.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/clyde.guillot.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/corentin.graulier.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/cyril.colinet.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/cyril.puccio.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/damien.munoz.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/daniele.lamonica.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/david.diana.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/dimitri1.wyzlic.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/dylan.castillon.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/dylan.ferreira.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/edouard.supper.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/enzo.biamonti.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/enzo.lenzi.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/eric.deschodt.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/ethan.kerdelhue.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/etienne.esclapez.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/fabien.haar.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/flavien.sellet.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/florian.defer.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/gabriel.motta.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/gaetan.leandre.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/geoffrey.bourgeon.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/gregory.dasilvasoares.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/guillaume.sagot.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/guy.descroix.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/harshil.sethi.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/hugo.lackermaier.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/hugo.sohm.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/hugo1.flament.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/jacques.ribero.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/jade.giangiacomi.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/jean-baptiste.gouriou.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/jeremy.guastalli.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/jeremy.papay.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/jordan.vacca.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/joseph.pereniguez.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/jules-louis-jean.jaffard.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/julien.deporte.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/katina.beslot.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/kilian.tamagno.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/leo.hubert.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/liam.fabiano.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/loic.dupil.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/loic.lopez.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/lois2.bentrari.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/lorenzo.mariosa.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/louis-diego.torregano.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/louis.barbaglia.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/louis.giarmon.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/lucas.gambini.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/lucas.gras.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/lucas.marcel.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/martin.vantalon.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/mathias.tabo.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/mathilde.charpiot.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/matthias.prost.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/matthias.schafter.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/maxence.svensson.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/maxime.bulteau.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/maxime.gallo.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/milena.kostov.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/mohammed.tabouy.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/myron.minel.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/nathan.grimaud.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/nicolas.manelli.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/oscar.corral.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/pascal.giacchero.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/pascaline.cayol.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/philippe.huron.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/philippe1.lefevre.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/pierre-francois.morganti.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/pierre.cursoux.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/pierre.piazza.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/pierre.ramoin.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/quentin.charles.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/quentin.denis.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/quentin.dulau.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/quentin.rouchet.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/remi.gastaldi.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/renaud.juliani.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/romain.estrada.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/romain.fagnola.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/romain.lendrevie.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/romain.nowicki.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/ryan.chamayrac.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/sebastien.roux.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/sokhna-fatma-thioub.diop.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/sonny.fournier.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/stanislas.deneubourg.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/tanguy.lelievre.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/teddy.luchel.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/terence.dufrane.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/thibault.foucou.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/thien-luan.mai-nguyen.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/thomas.augusto.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/thomas.hugues.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/timothee.casalini.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/tom.mastantuono.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/tom.rouvier.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/tristan.charpenel.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/tristan.morera.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/ugo.santoro.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/vanessa.demarque.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/victor.cordeiro.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/victor.sousa.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/vincent.dupont-de-dinechin.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/vladislav.zobov.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/yacine.naourine.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/yassir.jabbari.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/yoann.milanesio.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/yohan.coquelet.bmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pictures/yohann.allavena.bmp" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -278,7 +412,7 @@
       <updated>1507640219418</updated>
       <workItem from="1507640221075" duration="12884000" />
       <workItem from="1507720114560" duration="7296000" />
-      <workItem from="1508248188603" duration="627000" />
+      <workItem from="1508248188603" duration="681000" />
     </task>
     <task id="LOCAL-00001" summary="it created exams .txt !">
       <created>1507646488570</created>
@@ -298,14 +432,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20807000" />
+    <option name="totallyTimeSpent" value="20861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1932" height="1092" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13148049" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13148049" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Kevoree Base64 Translator" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
