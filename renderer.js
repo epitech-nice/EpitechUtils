@@ -34,40 +34,45 @@ document.addEventListener('dragover', function (e) {
 
 var createTrombi = function () {
 
+    dialog.showOpenDialog({properties : ['openDirectory']}, function(path){
 
-    dialog.showSaveDialog(function (fileName) {
-        $("#trombiContainer").html("");
-        $("#menuContainer").hide();
-        $("#trombiContainer").show();
-        var content = "";
-        for (var i = 0; i < studentArray.length; i++) {
-            content += "<div style='width: 20%;text-align: center;display: inline-block'><div><img src='./pictures/" + studentArray[i] + ".bmp' style='max-width: 100%'></div><div style='max-width: 100%;word-break: break-all;text-align: center'>" + studentArray[i] + "</div></div></div>";
-        }
+        dialog.showSaveDialog(function (fileName) {
+            $("#trombiContainer").html("");
+            $("#menuContainer").hide();
+            $("#trombiContainer").show();
+            var content = "";
+            for (var i = 0; i < studentArray.length; i++) {
+                content += "<div style='width: 20%;text-align: center;display: inline-block'><div><img src='" + path[0] + "/" + studentArray[i] + ".bmp' style='max-width: 100%'></div><div style='max-width: 100%;word-break: break-all;text-align: center'>" + studentArray[i] + "</div></div></div>";
+            }
+            console.log(content);
 
-        $("#trombiContainer").html(content);
+            $("#trombiContainer").html(content);
 
-        // var docDefinition = {
-        //     content: [
-        //         {text: 'noBorders:', fontSize: 14, bold: true, pageBreak: 'before', margin: [0, 0, 0, 8]},
-        //         {
-        //             table: {body: []},
-        //             layout: 'noBorders'
-        //         }]
-        // };
-        // var actualArray = [];
+            // var docDefinition = {
+            //     content: [
+            //         {text: 'noBorders:', fontSize: 14, bold: true, pageBreak: 'before', margin: [0, 0, 0, 8]},
+            //         {
+            //             table: {body: []},
+            //             layout: 'noBorders'
+            //         }]
+            // };
+            // var actualArray = [];
 
-        // pdfMake.createPdf(docDefinition).download("lemeilleurpdf.pdf");
-        setTimeout(() => {
-            const webContents = remote.getCurrentWebContents();
+            // pdfMake.createPdf(docDefinition).download("lemeilleurpdf.pdf");
+            setTimeout(() => {
+                const webContents = remote.getCurrentWebContents();
 
-            webContents.printToPDF({
-                pageSize: 'A4',
-                landscape: false
-            }, (err, data) => {
-                fs.writeFile(fileName, data);
-            });
-        }, 500);
+                webContents.printToPDF({
+                    pageSize: 'A4',
+                    landscape: false
+                }, (err, data) => {
+                    fs.writeFile(fileName, data);
+                });
+            }, 500);
+        });
     });
+
+
 };
 
 var createExam = function () {
